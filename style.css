@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#myVideo{
+    width: 60%;
+    height: auto;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+#myVideo1{
+    width: 100%;
+    height: auto;
+}
+
+.nav{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItem{
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+    margin: 35px;
+}
+
+.navItem:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.pitch{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.subHeading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 25px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    background-color: red;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 15px;
+    border-color: red;
+    color: white;
+}
+
+.btn:hover{   
+    background-color:rgb(255, 110, 110);
+    filter: opacity(0.8);
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+.header{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin: 90px 0px 30px 0px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.card{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 5px;
+    padding: 15px 20px;
+    border-style: groove;
+    border-width: 3px;     
+    border-color: rgb(255, 0, 0);
+    background-image: linear-gradient( #eb334844 , #f45b435b);
+    border-radius: 25px;
+}
+
+.cardText{
+    font-family:'Montserrat', sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+del{
+    color: red;
+}
+
+ins{
+    color: green;
+}
+
+.rate{
+    font-size: 30px;
+}
+
+.card:hover{
+    background-color:rgba(241, 149, 149, 0.644);
+}
+
+.cardHeading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.wrapperText{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+
+}
+
+li{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    margin: 5px;
+}
+
+input{
+    width: 200px;
+    height: 50px;
+}
+
+.reserve{
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+@media all and (max-width:800px){
+
+    body{
+        background-color: rgba(121, 203, 241, 0.479);
+    }
+
+
+#myVideo{
+   width: 0;
+}
+
+.nav{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navItem{
+    margin:5px;
+    padding: 5px;
+}
+
+.logoPic{
+    width: 80px;
+}
+
+.pitch{
+    margin: 0;
+    flex-direction: column;
+}
+
+.subHeading{    
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.btn{
+    font-size: 15px;
+    padding: 25px;
+    margin: 5px;
+    margin-top: 10px;
+
+}
+
+.card{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    background-image: none;
+}
+
+.wrapper{
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+.cardHeading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapperIMG{
+    max-width: 100%;
+}
+
+form{
+    flex-direction: column;
+    margin: 35px;
+}
+
+label{
+    font-size: 15px;
+    padding: 5px;
+}
+
+input{
+    width: 200px;
+    height: 50px;
+}
+
+.reserve{
+    margin-left: 0px;
+    margin-bottom: 50px 0px;
+
+}
+.header{
+    margin-left: 25px;
+}
+
+li{
+    padding: 5px;
+    margin: 5px;
+}
+
+.rate{
+    font-size: 20px;
+}
+
+
+}
